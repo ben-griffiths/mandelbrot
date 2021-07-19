@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mandelbrot"
+version = "0.1.0"
+description = ""
+authors = ["ben <bengriffiths1571@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+pygame = "^2.0.1"
+numpy = "^1.21.0"
+numba = "^0.53.1"
+mpmath = "^1.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
